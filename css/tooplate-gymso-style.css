@@ -415,68 +415,39 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   /*---------------------------------------
-     SCHEDULE             
+     SERVICES             
   -----------------------------------------*/
 
-  .schedule {
-    background: var(--dark-color);
+  .services {
+    background-color: #171819;
   }
 
-  .schedule-table {
-    display: table;
-    border: 0;
-    text-align: center;
+  .services__container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
   }
 
-  .schedule-table strong,
-  .schedule-table span {
-    display: block;
-    text-align: center;
+  .services__item-container {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
-  .schedule-table strong {
-    color: var(--white-color);
+  .services__item {
+    list-style: none
   }
 
-  .schedule-table span {
-    color: var(--gray-color);
+  .services__description {
+    margin: 0 10rem 1rem 10rem;
+    color: rgb(185, 185, 185);
+    border-bottom: #f13a11 1px dotted;
   }
-
-  .schedule-table span,
-  .schedule-table small {
-    font-size: var(--menu-font-size);
-    text-transform: uppercase;
-  }
-
-  .schedule-table small {
-    position: relative;
-    top: 10px;
-  }
-
-  .table .thead-light th,
-  .schedule-table tr td:first-child {
-    background: var(--primary-color);
-    border: 1px solid #212122;
-    color: var(--white-color);
-  }
-
-  .schedule-table .thead-light th {
-    border-bottom: 0;
-    text-transform: uppercase;
-  }
-
-  .table-bordered td, 
-  .table-bordered th {
-    border: 1px solid #212122;
-  }
-
-  .table-bordered td {
-    padding-bottom: 22px;
-  }
-
-  .table td, .table th {
-    padding: 1rem;
-  }
+  
 
 
   /*---------------------------------------
@@ -484,7 +455,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .about {
-    background-color: rgb(54, 44, 44);
+    background-color: rgb(59, 59, 59);
     padding-top: 1rem;
   }
 
@@ -494,15 +465,23 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .about__image {
-    height: 20rem;
-    width: 15rem;
+    height: 30rem;
+    width: 20rem;
     border-radius: .5rem;
     border: #f13a11 solid .5px;
+    box-shadow: 4px 0 18px #dd8977;
+  }
+
+  .about__list {
+    color:rgb(196, 196, 196)
   }
 
   .about__text {
     color: white;
-    padding-top: 1rem;
+    padding: 3rem 1rem 1rem 1rem;
+    width: 50%;
+    margin: auto;
+    
   }
 
   .about-working-hours {

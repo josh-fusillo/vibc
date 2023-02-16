@@ -458,14 +458,32 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding-top: 1rem;
   }
 
-  .about__image-container {
+  .about__items-container {
     display: flex;
+
+  }
+
+  .about__text-container {
+    width: 60%;
+  }
+
+  .about__image-container {
+    display: flex;   
+    flex-direction: row; 
     justify-content: space-evenly;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+  
+  }
+
+  .about__image-container-flex {
+    width: 80%;
   }
 
   .about__image {
-    height: 30rem;
-    width: 20rem;
+   
+    height: 20rem;
+    width: 12rem;
     border-radius: .5rem;
     border: #f13a11 solid .5px;
     box-shadow: 4px 0 18px #dd8977;
@@ -477,9 +495,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   .about__text {
     color: white;
-    padding: 3rem 1rem 1rem 1rem;
-    width: 50%;
-    margin: auto;
+    padding: 3rem 3rem 1rem 1rem;
+    font-size: .9rem;
+    margin-left: 5rem;
+    margin-right: 0;
     
   }
 

@@ -435,15 +435,20 @@ https://www.tooplate.com/view/2119-gymso-fitness
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    margin: 0 20rem 1rem 20rem;
+    margin: 0 30rem 1rem 30rem;
   }
 
   .services__item {
-    list-style: none
+    list-style: none;
+    border-bottom: lightgray .5px dotted
+  }
+
+  .services__price {
+    border-bottom: lightgray .5px dotted
   }
 
   .services__description {
-    margin: 0 20rem 1rem 20rem;
+    margin: 0 30rem 1rem 30rem;
     color: rgb(185, 185, 185);
     border-bottom: #f13a11 1px dotted;
   }

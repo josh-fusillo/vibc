@@ -645,6 +645,7 @@ button#submit-button:hover {
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
   overflow-x: hidden;
+  background-color: #171819;
 }
 
 .modal-content {
@@ -652,6 +653,7 @@ button#submit-button:hover {
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
   overflow-x: hidden;
+  background-color: #171819;
 }
 
 .modal__button {
@@ -671,6 +673,7 @@ button#submit-button:hover {
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
   overflow: hidden;
+  background-color: #171819;
 }
 
 /*---------------------------------------

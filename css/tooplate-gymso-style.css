@@ -658,13 +658,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
     z-index: 9999;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    border-color: #d87854;
+    border-color: #f13a11 ;
+    overflow-x: hidden;
   }
   
   .modal-content {
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    border-color: #d87854;
+    border-color: #f13a11 ;
+    overflow-x: hidden;
   }
   
   .modal__button {
@@ -672,7 +674,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
     border-bottom-right-radius: 0.25rem;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    border-color: #d87854;
+    border-color: #f13a11 ;
+    overflow-x: hidden;
   }
   
   .modal__frame {
@@ -681,7 +684,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
     z-index: 9999;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    border-color: #d87854;
+    border-color: #f13a11 ;
+    overflow-x: hidden;
   }
 
 

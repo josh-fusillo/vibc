@@ -675,7 +675,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-color: #f13a11 ;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   
   .modal__frame {
@@ -685,7 +685,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
     border-color: #f13a11 ;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
 

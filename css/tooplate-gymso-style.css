@@ -262,14 +262,14 @@ a:focus {
 .navbar {
   background: var(--dark-color);
   padding: 1rem;
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100vw;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  overflow-x: hidden;
+  overflow: hidden;
  
 }
 
@@ -647,8 +647,9 @@ button#submit-button:hover {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #171819;
+  padding-right: 0;
 }
 
 .modal-content {

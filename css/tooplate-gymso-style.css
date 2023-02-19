@@ -382,7 +382,8 @@ a:focus {
 }
 
 .award-image {
-  height: 15rem;
+  height: 50rem;
+  margin: 8rem 0 0 5rem;
 }
 
 /*---------------------------------------
@@ -471,6 +472,10 @@ a:focus {
   display: flex;
 }
 
+.about__container {
+  display: flex;
+}
+
 .about__text-container {
   width: 60%;
 }
@@ -489,8 +494,8 @@ a:focus {
 }
 
 .about__image {
-  height: 20rem;
-  width: 12rem;
+  height: 30rem;
+  width: 20rem;
   border-radius: 0.5rem;
   border: #f13a11 solid 0.5px;
   box-shadow: 4px 0 18px #dd8977;

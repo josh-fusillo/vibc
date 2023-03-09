@@ -712,7 +712,7 @@ button#submit-button:hover {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: #171819;
   padding-right: 0;
 }
@@ -732,7 +732,7 @@ button#submit-button:hover {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-color: #f13a11;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .modal__frame {
@@ -742,7 +742,7 @@ button#submit-button:hover {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-color: #f13a11;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: #171819;
   box-shadow: 4px 0 18px #dd8977;
 }

@@ -500,6 +500,13 @@ a:focus {
   box-shadow: 4px 0 18px #dd8977;
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .about__image {
+    width: 90%;
+    height: 60%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about__container {
     flex-direction: column;

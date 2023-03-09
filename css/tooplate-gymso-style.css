@@ -507,20 +507,23 @@ a:focus {
   }
   .about__image-container {
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 0
   }
   .about__image-container-flex {
     margin:auto;
+
   }
   .award-image {
     height: 30rem;
     margin: auto;
+
     
   }
 
   .about__image {
     margin-bottom: 1rem;
+    margin-left:auto;
+    margin-right: auto;
   }
 }
 

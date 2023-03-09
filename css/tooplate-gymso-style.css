@@ -736,7 +736,7 @@ button#submit-button:hover {
 }
 
 .modal__frame {
-  height: 40rem;
+  height: 45rem;
   width: auto;
   z-index: 9999;
   border-top-right-radius: 0.5rem;

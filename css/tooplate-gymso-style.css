@@ -460,7 +460,9 @@ a:focus {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  
+  .services__container {
+    margin: auto;
+  }
   
   .services__item-container {
     margin: 0 10% 5% 10%;

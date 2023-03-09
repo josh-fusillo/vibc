@@ -443,6 +443,7 @@ a:focus {
   margin: 0 30rem 1rem 30rem;
 }
 
+
 .services__item {
   list-style: none;
   border-bottom: lightgray 0.5px dotted;
@@ -458,6 +459,20 @@ a:focus {
   border-bottom: #f13a11 1px dotted;
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .services__container {
+    
+  }
+
+  .services__item-container {
+    margin: auto;
+    flex-direction: column;
+  }
+  .services__description {
+  margin: auto;
+   
+  }
+}
 /*---------------------------------------
       ABOUT & TEAM            
   -----------------------------------------*/

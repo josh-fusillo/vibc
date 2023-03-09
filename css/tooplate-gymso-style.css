@@ -460,16 +460,15 @@ a:focus {
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
-  .services__container {
-    
-  }
-
+  
+  
   .services__item-container {
-    margin: auto;
-    flex-direction: column;
+    margin: 0 10% 5% 10%;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .services__description {
-  margin: auto;
+  margin: 0 10% 5% 10%;
    
   }
 }

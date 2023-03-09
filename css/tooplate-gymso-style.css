@@ -500,7 +500,7 @@ a:focus {
   box-shadow: 4px 0 18px #dd8977;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .about__container {
     flex-direction: column;
     margin: auto;

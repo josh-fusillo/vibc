@@ -472,12 +472,12 @@ a:focus {
   }
   
   .services__item-container {
-    margin: 0 10% 5% 10%;
+    margin: 0 10% 5% 0;
     flex-direction: row;
     justify-content: space-between;
   }
   .services__description {
-  margin: 0 10% 5% 10%;
+  margin: 0 10% 5% 0;
    
   }
 }
